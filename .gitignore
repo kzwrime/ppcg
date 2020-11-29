@@ -31,3 +31,5 @@ polybench_test.sh
 *.out
 isl/
 pet/
+
+ppcg-main.srctrldb
