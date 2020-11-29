@@ -13,13 +13,15 @@
                 <target_options_enabled>0</target_options_enabled>
             </cross_compilation>
             <exclude_filters>
-                <exclude_filter>isl</exclude_filter>
                 <exclude_filter>pet</exclude_filter>
                 <exclude_filter>tests</exclude_filter>
                 <exclude_filter>examples</exclude_filter>
             </exclude_filters>
             <header_search_paths>
                 <header_search_path>/usr/lib/llvm-10/include</header_search_path>
+                <header_search_path>isl</header_search_path>
+                <header_search_path>pet</header_search_path>
+                <header_search_path>./</header_search_path>
                 <header_search_path>isl/imath</header_search_path>
                 <header_search_path>isl/include</header_search_path>
                 <header_search_path>pet/include</header_search_path>
